@@ -22,9 +22,13 @@ const LinkList = () => {
 
     return (
         <div>
-            {data.feed.links.map((link) => (
-                <Link key={link.id} link={link} />
-            ))}
+            {data && (
+                <>
+                    {data.feed.links.map((link) => (
+                        <Link key={link.id} link={link} />
+                    ))}
+                </>
+            )}
         </div>
     );
 };
