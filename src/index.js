@@ -5,6 +5,7 @@ import App from './components/App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 import { setContext } from '@apollo/client/link/context';
+import {AUTH_TOKEN} from './constants'
 
 import {
     ApolloProvider,

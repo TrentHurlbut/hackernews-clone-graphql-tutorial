@@ -16,9 +16,9 @@ type Feed {
 }
 
 type Users {
-    id: ID
-    userAccounts: [User]
-    count: Int
+    id: ID!
+    userAccounts: [User!]!
+    count: Int!
 }
 
 type Mutation {
