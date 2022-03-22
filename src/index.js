@@ -13,7 +13,6 @@ import {
     createHttpLink,
     InMemoryCache,
 } from '@apollo/client';
-import { AUTH_TOKEN } from './constants';
 
 const httpLink = createHttpLink({
     uri: 'http://localhost:4000',
